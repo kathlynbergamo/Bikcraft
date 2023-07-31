@@ -7,6 +7,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
+  padding: 0 20px;
 }
 
 .tecnologia-imagem img {
@@ -51,6 +52,7 @@
 .tecnologia-vantagens img {
   width: 24px;
   margin-bottom: 8px;
+ padding: 40px 0 0 0;
 }
 
 @media (max-width: 800px) {

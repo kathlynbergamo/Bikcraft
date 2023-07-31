@@ -36,11 +36,11 @@
   gap: 32px;
 }
 
-.footer a::hover {
+.footer a:hover {
   color: var(--cor-0);
 }
 
-.foote-copy {
+.footer-copy {
   grid-column: 1/-1;
   margin-top: 40px;
 }
