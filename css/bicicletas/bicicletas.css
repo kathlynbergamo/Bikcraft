@@ -72,7 +72,7 @@
 
 @media (max-width: 800px) {
   .bicicletas-bg {
-    background:var(--cor-11);
+    background: var(--cor-11);
   }
   .bicicletas {
     grid-template-columns: 1fr;

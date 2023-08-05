@@ -17,6 +17,8 @@
   color: var(--cor-p5);
   font: 600 1.125rem/1.35 "poppins", sans-serif;
   max-width: max-content;
+  border: none;
+  cursor: pointer;
 }
 
 .botao:hover {
@@ -44,7 +46,7 @@
   height: 10px;
   margin-left: 12px;
   background: url("../../img/seta.svg");
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 
 .botao.seta:hover::after {
@@ -89,8 +91,8 @@
 
 @media (max-width: 800px) {
   .titulo {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
   .titulo p {
     font-size: 1rem;
