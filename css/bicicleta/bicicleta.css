@@ -1,10 +1,9 @@
 .bicicleta {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: start;
+  align-items: flex-start;
   gap: 40px;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding: 60px 20px;
 }
 
 #bicicleta .titulo p {
@@ -17,12 +16,13 @@
   gap: 20px;
 }
 
-.bicicletas-imagens img {
+.bicicleta-imagens img {
   flex: 1;
   min-width: 200px;
+  border-radius: 4px;
 }
 
-.bicicletas-imagens img::first-child {
+.bicicleta-imagens img:first-child {
   min-width: 100%;
 }
 
@@ -36,7 +36,10 @@
   align-items: center;
   justify-items: start;
   gap: 8px 12px;
-  margin-bottom: 40px;
+}
+
+.bicicleta-comprar {
+  margin-bottom: 32px;
 }
 
 .bicicleta-comprar a {
@@ -99,19 +102,18 @@
 @media (max-width: 800px) {
   .bicicleta {
     grid-template-columns: 1fr;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 40px initial;
   }
   .bicicleta-imagens {
-    grid-row: 2;
+    display: grid;
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .bicicleta-informacoes {
-    grid-template-columns: -1fr;
+    grid-template-columns: 1fr;
   }
   .bicicleta-comprar {
-    grid-template-columns: -1fr;
+    grid-template-columns: 1fr;
   }
 }

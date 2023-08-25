@@ -33,6 +33,7 @@
 
 .bicicletas-lista img {
   margin-bottom: 16px;
+  border-radius: 4px;
 }
 
 .bicicletas-lista h3 {
